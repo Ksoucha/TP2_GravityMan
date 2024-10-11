@@ -26,6 +26,7 @@ public class CherriesCollected : MonoBehaviour
         UpdateCherryText();
     }
 
+    //Les deux fonctions suivantes ont été prises de ChatGPT
     public void OnLevelChange()
     {
         totalCherriesCollected = 0;  // Reset the counter when changing levels
