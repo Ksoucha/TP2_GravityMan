@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] string nextLevelName;
     public float speed = 5f;
     private Vector3 originalPosition;
     Camera playerCamera;
@@ -60,7 +61,15 @@ public class Player : MonoBehaviour
     {
         if (++cherryCounter == 5)
         {
-            FindAnyObjectByType<TMP_Text>().color = Color.white;
+            if(string.IsNullOrEmpty(nextLevelName))
+            {
+                FindAnyObjectByType<TMP_Text>().color = Color.white;
+            }
+            else
+            {
+                SceneManager.LoadScene(nextLevelName);
+                cherryCounter = 0;
+            }  
         }
     }
 }
