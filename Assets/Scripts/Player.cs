@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     SpriteRenderer spriteRenderer;
     private int cherryCounter;
+    public TMP_Text victoire;
 
     void Start()
     {
@@ -63,7 +64,7 @@ public class Player : MonoBehaviour
         {
             if(string.IsNullOrEmpty(nextLevelName))
             {
-                FindAnyObjectByType<TMP_Text>().color = Color.white;
+                victoire.color = Color.white;
                 FindAnyObjectByType<Timer>().StopTimer();
             }
             else

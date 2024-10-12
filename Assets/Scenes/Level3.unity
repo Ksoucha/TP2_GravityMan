@@ -1037,6 +1037,7 @@ MonoBehaviour:
   nextLevelName: 
   speed: 5
   rb: {fileID: 546095951}
+  victoire: {fileID: 961963769}
 --- !u!61 &546095950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1256,6 +1257,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60ed2bbb4b2006c49ba43df83e6adbcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timerText: {fileID: 549501555}
+  fastestTimeText: {fileID: 0}
+  timePassed: 0
 --- !u!1001 &608099523
 PrefabInstance:
   m_ObjectHideFlags: 0
