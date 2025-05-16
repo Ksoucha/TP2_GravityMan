@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de31ac1658b6111419678b5304f90fb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelName: 
+  nextLevelName: Level2
   speed: 5
   rb: {fileID: 546095951}
   victoire: {fileID: 961963769}
