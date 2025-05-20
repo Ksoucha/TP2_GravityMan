@@ -90,7 +90,6 @@ public class Timer : MonoBehaviour
         IsEnabled = false;
     }
 
-    //Les trois fonctions suivantes ont été prises de ChatGPT
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
