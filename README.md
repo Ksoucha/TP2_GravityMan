@@ -7,7 +7,7 @@ It is a mini-game that incorporates reversed gravity.
 
 
 ## Features
-* The player can reverse its gravity by pressing Space  
+* The player can reverse its gravity by pressing SPACE
 * The game has 3 mini-levels that have spikes and cherries to collect  
   * If you touch a spike, you will restart the level  
    * If you collect all of the cherries of the level, you can go to the next level  
